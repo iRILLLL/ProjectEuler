@@ -6,10 +6,8 @@ int main() {
     int x;
 
     for(x=999; x > 0; x--) {
-        if (x % 5 == 0) {
-            counter = counter + x;
-        } else if (x % 3 == 0) {
-            counter = counter + x;
+        if (x % 5 == 0 || x % 3 == 0) {
+            counter += x;
         }
     }
 
