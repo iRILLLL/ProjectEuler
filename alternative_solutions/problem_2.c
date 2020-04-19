@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
     int limit = 4000000;
     int sum = 0;
@@ -8,7 +9,8 @@ int main() {
     int b = 1;
     int c = a + b;
 
-    while (c < limit) {
+    while (c < limit)
+    {
         sum += c;
         a = b + c;
         b = c + a;
